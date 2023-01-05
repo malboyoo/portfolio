@@ -1,8 +1,8 @@
 function BottomSection() {
   return (
-    <div className="bottomContainer bg-dark-2 py-5 px-10 md:px-14 flex flex-col md:flex-row flex-auto items-center md:items-start">
+    <section className="bottomContainer bg-dark-2 py-5 px-10 md:px-14 flex flex-col md:flex-row flex-auto items-center md:items-start">
       <div className="md:w-1/2 mr-5 max-w-[360px] py-4">
-        <article className="bg-dark-1 p-3 my-2 rounded-md">
+        <article className="bg-dark-1 p-3 mb-2 md:mb-5 rounded-md">
           <h2 className="text-xl text-green mb-3">
             FRONT-END <i className="devicon-react-original mr-2"></i>
             <i className="devicon-typescript-plain mr-2"></i>
@@ -11,7 +11,7 @@ function BottomSection() {
           </h2>
           <p className="text-sm">ReactJS, Typescript, TailwindCSS, Sass.</p>
         </article>
-        <article className="bg-dark-1 p-3 rounded-md">
+        <article className="bg-dark-1 p-3 my-3 md:my-5 rounded-md">
           <h2 className="text-xl text-green mb-3">
             BACK-END <i className="devicon-nodejs-plain mr-2"></i>
             <i className="devicon-express-original mr-2"></i>
@@ -35,7 +35,7 @@ function BottomSection() {
           functional and visually appealing applications that meet the needs of users.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 

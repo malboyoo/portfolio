@@ -4,12 +4,12 @@ function Footer() {
       <span className="text-lg">COPYRIGHT © 2023 THIBAUT LEFEVRE</span>
       <nav>
         <ul className="flex mt-4 md:mt-0">
-          <li className="mx-2">
+          <li className="mx-2 hover:scale-110 transition-all">
             <a href="https://www.linkedin.com/in/thibaut-lefevre-dev/">
               <i className="fa-brands fa-linkedin text-xl"></i>
             </a>
           </li>
-          <li className="mx-2">
+          <li className="mx-2 hover:scale-110 transition-all">
             <a href="https://github.com/malboyoo">
               <i className="fa-brands fa-github text-xl"></i>
             </a>
