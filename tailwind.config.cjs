@@ -8,6 +8,8 @@ module.exports = {
         "dark-2": "#25262A",
         green: "#4DBA87",
         gray: "#777777",
+        code: "#1E1E1E",
+        variable: "#9CDCFE",
       },
       keyframes: {
         floating: {

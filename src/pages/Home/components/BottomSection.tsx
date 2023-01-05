@@ -2,23 +2,32 @@ function BottomSection() {
   return (
     <section className="bottomContainer bg-dark-2 py-5 px-10 md:px-14 flex flex-col md:flex-row flex-auto items-center md:items-start">
       <div className="md:w-1/2 mr-5 max-w-[360px] py-4">
-        <article className="bg-dark-1 p-3 mb-2 md:mb-5 rounded-md">
-          <h2 className="text-xl text-green mb-3">
-            FRONT-END <i className="devicon-react-original mr-2"></i>
-            <i className="devicon-typescript-plain mr-2"></i>
-            <i className="devicon-tailwindcss-plain mr-2"></i>
-            <i className="devicon-sass-original mr-2"></i>
-          </h2>
-          <p className="text-sm">ReactJS, Typescript, TailwindCSS, Sass.</p>
+        <article className="bg-dark-1 p-3 pt-2 mb-2 md:mb-5 rounded-md">
+          <div className="w-full flex justify-between items-center  text-green">
+            <h2 className="text-xl mb-2 mr-2">Front-end</h2>
+            <div>
+              <i className="devicon-react-original mr-2"></i>
+              <i className="devicon-typescript-plain mr-2"></i>
+              <i className="devicon-tailwindcss-plain mr-2"></i>
+              <i className="devicon-sass-original mr-2"></i>
+            </div>
+          </div>
+
+          <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">
+            ReactJS, Typescript, TailwindCSS, Sass.
+          </p>
         </article>
-        <article className="bg-dark-1 p-3 my-3 md:my-5 rounded-md">
-          <h2 className="text-xl text-green mb-3">
-            BACK-END <i className="devicon-nodejs-plain mr-2"></i>
-            <i className="devicon-express-original mr-2"></i>
-            <i className="devicon-typescript-plain mr-2"></i>
-            <i className="devicon-mongodb-plain mr-2"></i>
-          </h2>
-          <p className="text-sm">NodeJS, Express, Typescript, mongoDB.</p>
+        <article className="bg-dark-1 p-3 pt-2 mb-2 md:mb-5 rounded-md">
+          <div className="w-full flex justify-between items-center  text-green">
+            <h2 className="text-xl mb-2 mr-2">Back-end</h2>
+            <div>
+              <i className="devicon-nodejs-plain mr-2"></i>
+              <i className="devicon-express-original mr-2"></i>
+              <i className="devicon-typescript-plain mr-2"></i>
+              <i className="devicon-mongodb-plain mr-2"></i>
+            </div>
+          </div>
+          <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">NodeJS, Express, Typescript, mongoDB.</p>
         </article>
       </div>
       <div className="introduce md:w-1/2 mx-auto">
