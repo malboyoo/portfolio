@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="flex flex-col md:flex-row justify-between items-center py-10 px-10 md:px-14">
-      <span className="text-lg">COPYRIGHT © 2023 THIBAUT LEFEVRE</span>
+      <span className="md:text-lg text-base">COPYRIGHT © 2023 THIBAUT LEFEVRE</span>
       <nav>
         <ul className="flex mt-4 md:mt-0">
           <li className="mx-2 hover:scale-110 transition-all">

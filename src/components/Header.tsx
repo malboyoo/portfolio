@@ -9,13 +9,13 @@ function Header() {
       </NavLink>
       <nav className="font-medium flex justify-center items-center mt-4 md:mt-1">
         <ul className="flex">
-          <li className="mx-2 hover:scale-105 transition-all">
+          <li className="mx-2 hover:scale-110 transition-all">
             <NavLink to="/">Home</NavLink>
           </li>
-          <li className="mx-2 hover:scale-105 transition-all">
+          <li className="mx-2 hover:scale-110 transition-all">
             <NavLink to="projects">Projects</NavLink>
           </li>
-          <li className="mx-2 hover:scale-105 transition-all">
+          <li className="mx-2 hover:scale-110 transition-all">
             <NavLink to="resume">Resume</NavLink>
           </li>
         </ul>
