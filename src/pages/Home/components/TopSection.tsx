@@ -5,7 +5,7 @@ import thibaut from "../../../assets/images/thibaut_lefevre.png";
 
 function TopSection() {
   return (
-    <section className="topContainer flex flex-col md:flex-row pt-5 px-5 md:pt-10 md:px-14 bg-dark-1 md:justify-between items-center">
+    <section className="topContainer flex flex-col md:flex-row pt-5 px-5 md:pt-10 md:px-14 bg-dark-1 md:justify-around items-center">
       <div className="textContainer flex flex-col items-start md:mr-4 mb-10 md:mb-0 animate-fromLeftSlow opacity-0 animation-delay-1000">
         <div className="bg-green rounded-md hover:scale-110 transition-all cursor-default mb-2">
           <span className="text-dark-2 mx-4 my-1 block font-medium font-sans text-sm">Full-stack Developer</span>
