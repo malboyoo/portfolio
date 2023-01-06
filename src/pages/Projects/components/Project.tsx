@@ -17,8 +17,8 @@ function Project({
 }) {
   return (
     <article
-      className={`p-5 md:p-10 flex md:flex-row flex-col-reverse items-start md:items-center min-w-full justify-around ${
-        index % 2 ? "bg-dark-1" : "bg-dark-2 md:flex-row-reverse"
+      className={`pb-10 md:px-10 md:py-20 flex md:flex-row flex-col-reverse items-start md:items-center min-w-full justify-around animate-fromBottom ${
+        index % 2 ? "bg-dark-1 md:animate-fromLeft" : "bg-dark-2 md:flex-row-reverse md:animate-fromRight"
       }`}
     >
       <div
@@ -39,7 +39,7 @@ function Project({
         </div>
 
         <p
-          className={`italic text-gray md:my-4 my-2  text-center whitespace-pre-line ${
+          className={`italic text-gray md:my-4 my-2  text-center whitespace-pre-line px-10 md:px-0 ${
             index % 2 ? "md:text-right" : "md:text-left"
           }`}
         >
@@ -62,7 +62,7 @@ function Project({
         </ul>
       </div>
 
-      <div className="rounded-xl w-xl min-w-[300px] max-w-[500px] overflow-hidden shadow-xl self-center justify-self-center">
+      <div className="md:rounded-xl w-xl min-w-[300px] max-w-[500px] overflow-hidden shadow-xl self-center justify-self-center">
         {/* <a href={url}></a> */}
         <img src={img} alt={title} className="object-cover w-full" />
       </div>
