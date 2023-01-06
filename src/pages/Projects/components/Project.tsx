@@ -5,6 +5,7 @@ function Project({
   img,
   description,
   made,
+  index,
 }: {
   title: string;
   url: string;
@@ -12,39 +13,60 @@ function Project({
   img: string;
   description: string;
   made: React.ReactElement[];
+  index: number;
 }) {
   return (
-    <section className="py-5 px-5 md:pt-10 md:px-14 flex flex-col items-center mt-5">
-      <div className="rounded-xl w-xl min-w-[300px] max-w-[500px] overflow-hidden shadow-xl">
-        <a href={url}>
-          <img src={img} alt={title} className="object-cover w-full" />
-        </a>
-      </div>
-      <div className="max-w-xl">
-        <span className="text-4xl my-2 text-green flex flex-row items-center justify-center">
-          {made.map((el) => el)}
-        </span>
+    <article
+      className={`p-5 md:p-10 flex md:flex-row flex-col-reverse items-start md:items-center min-w-full justify-around ${
+        index % 2 ? "bg-dark-1" : "bg-dark-2 md:flex-row-reverse"
+      }`}
+    >
+      <div
+        className={`md:max-w-md flex flex-col  items-center ${
+          index % 2 ? "md:items-end md:mr-5 lg:mr-10" : "md:items-start md:ml-5 lg:ml-10"
+        } `}
+      >
+        <h2 className="text-2xl text-green md:mt-0 mt-4">{title}</h2>
+        <div className="text-4xl md:my-4 my-2 text-green flex flex-row items-center justify-between">
+          {made.map((el) => (
+            <span
+              className={`mx-2 md:mx-0 ${index % 2 ? "md:ml-3 md:mr-0" : "md:mr-3 md:ml-0"}`}
+              key={crypto.randomUUID()}
+            >
+              {el}
+            </span>
+          ))}
+        </div>
 
-        <hr className="mb-2 border-none h-[2px] rounded-md bg-gray" />
+        <p
+          className={`italic text-gray md:my-4 my-2  text-center whitespace-pre-line ${
+            index % 2 ? "md:text-right" : "md:text-left"
+          }`}
+        >
+          {description}
+        </p>
 
-        <p className="italic text-gray my-5">{description}</p>
-
-        <hr className="mb-2 border-none h-[2px] rounded-md bg-gray" />
-
-        <ul className="text-green flex justify-center">
-          <li className="m-4">
-            <a href={url} className="hover:underline hover:scale-110 hover:text-white text-base">
-              <i className="fa-solid fa-link"></i> Preview
-            </a>
-          </li>
-          <li className="m-4">
-            <a href={github} className="hover:underline hover:text-white text-base">
+        <ul className="text-green flex justify-start md:my-4 my-2">
+          {url && (
+            <li className="mr-4 text-base hover:-translate-y-2 hover:text-lg hover:text-white transition-all h-7">
+              <a href={url}>
+                <i className="fa-solid fa-link"></i> Preview
+              </a>
+            </li>
+          )}
+          <li className="text-base hover:-translate-y-2 hover:text-lg hover:text-white transition-all h-7">
+            <a href={github}>
               <i className="fa-brands fa-github"></i> Github
             </a>
           </li>
         </ul>
       </div>
-    </section>
+
+      <div className="rounded-xl w-xl min-w-[300px] max-w-[500px] overflow-hidden shadow-xl self-center justify-self-center">
+        {/* <a href={url}></a> */}
+        <img src={img} alt={title} className="object-cover w-full" />
+      </div>
+    </article>
   );
 }
 

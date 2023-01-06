@@ -14,7 +14,7 @@ function TopSection() {
           Code is not just a job,
           <br /> it's a passion.
         </h2>
-        <p className="text-gray mt-3">I design and code beautiful simple things, and I love what I do.</p>
+        <p className="text-gray mt-3 text-lg">The most important thing is to have a good time doing it.</p>
         <a
           href="mailto:thibaut.lefevre.dev@gmail.com"
           className="underline text-green hover:text-white text-lg mt-6 hover:scale-110 transition-all"

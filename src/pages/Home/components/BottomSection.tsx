@@ -6,10 +6,10 @@ function BottomSection() {
           <div className="w-full flex justify-between items-center  text-green">
             <h2 className="text-xl mb-2 mr-2">Front-end</h2>
             <div>
-              <i className="devicon-react-original colored mr-2"></i>
-              <i className="devicon-typescript-plain colored mr-2"></i>
-              <i className="devicon-tailwindcss-plain colored mr-2"></i>
-              <i className="devicon-sass-original colored mr-2"></i>
+              <i className="devicon-react-original colored mr-2" title="ReactJS"></i>
+              <i className="devicon-typescript-plain colored mr-2" title="Typescript"></i>
+              <i className="devicon-tailwindcss-plain colored mr-2" title="TailwindCSS"></i>
+              <i className="devicon-sass-original colored mr-2" title="Sass"></i>
             </div>
           </div>
 
@@ -21,13 +21,13 @@ function BottomSection() {
           <div className="w-full flex justify-between items-center  text-green">
             <h2 className="text-xl mb-2 mr-2">Back-end</h2>
             <div>
-              <i className="devicon-nodejs-plain colored mr-2"></i>
-              <i className="devicon-typescript-plain colored mr-2"></i>
-              <i className="devicon-express-original colored mr-2"></i>
-              <i className="devicon-mongodb-plain colored mr-2"></i>
+              <i className="devicon-nodejs-plain colored mr-2" title="NodeJS"></i>
+              <i className="devicon-typescript-plain colored mr-2" title="Typescript"></i>
+              <i className="devicon-express-original text-white mr-2" title="Express"></i>
+              <i className="devicon-mongodb-plain colored mr-2" title="MongoDB"></i>
             </div>
           </div>
-          <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">NodeJS, Express, Typescript, mongoDB.</p>
+          <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">NodeJS, Typescript, Express, mongoDB.</p>
         </article>
       </div>
       <div className="introduce md:w-1/2 mx-auto">
