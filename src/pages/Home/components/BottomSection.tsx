@@ -2,7 +2,7 @@ function BottomSection() {
   return (
     <section className="bottomContainer bg-dark-2 py-5 px-10 md:px-14 flex flex-col md:flex-row flex-auto items-center md:items-start">
       <div className="md:w-1/2 mr-5 max-w-[360px] py-4">
-        <article className="bg-dark-1 p-3 pt-2 mb-5 rounded-md hover:scale-110 transition-transform">
+        <article className="bg-dark-1 p-3 mb-5 rounded-md hover:scale-110 transition-transform">
           <div className="w-full flex justify-between items-center  text-green">
             <h2 className="text-xl mb-2 mr-2">Front-end</h2>
             <div>
@@ -14,10 +14,11 @@ function BottomSection() {
           </div>
 
           <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">
-            ReactJS, Typescript, TailwindCSS, Sass.
+            ReactJS, Typescript, TailwindCSS, Sass
           </p>
         </article>
-        <article className="bg-dark-1 p-3 pt-2 mb-2 md:mb-5 rounded-md hover:scale-110 transition-transform">
+
+        <article className="bg-dark-1 p-3 mb-5 rounded-md hover:scale-110 transition-transform">
           <div className="w-full flex justify-between items-center  text-green">
             <h2 className="text-xl mb-2 mr-2">Back-end</h2>
             <div>
@@ -27,7 +28,19 @@ function BottomSection() {
               <i className="devicon-mongodb-plain colored mr-2" title="MongoDB"></i>
             </div>
           </div>
-          <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">NodeJS, Typescript, Express, mongoDB.</p>
+          <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">NodeJS, Typescript, Express, mongoDB</p>
+        </article>
+
+        <article className="bg-dark-1 p-3 mb-5 rounded-md hover:scale-110 transition-transform">
+          <div className="w-full flex justify-between items-center  text-green">
+            <h2 className="text-xl mb-2 mr-2">Skills & Others</h2>
+            <div>
+              <i className="devicon-git-plain colored mr-2" title="Git"></i>
+              <i className="devicon-jira-plain colored mr-2" title="Jira"></i>
+              <i className="devicon-vscode-plain colored mr-2" title="VScode"></i>
+            </div>
+          </div>
+          <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">Git, Scrum, VScode</p>
         </article>
       </div>
       <div className="introduce md:w-1/2 mx-auto">
