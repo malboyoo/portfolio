@@ -1,6 +1,5 @@
 import nodejs from "../../../assets/images/nodejs.png";
 import reactjs from "../../../assets/images/reactjs.png";
-import tailwind from "../../../assets/images/tailwind.png";
 import thibaut from "../../../assets/images/thibaut_lefevre.png";
 
 function TopSection() {
@@ -23,7 +22,7 @@ function TopSection() {
         </a>
       </div>
       <div className="imgContainer relative h-[380px] sm:h-[435px] w-[340px] min-w-[340px] sm:w-[390px] sm:min-w-[390px] animate-fromRightSlow opacity-0">
-        <div className="z-30 absolute">
+        <div className="z-30 absolute imgAuthor">
           <img src={thibaut} alt="Thibaut Lefevre" />
         </div>
         <div className="flex flex-col h-full  justify-between absolute top-0 z-10">

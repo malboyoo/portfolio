@@ -64,7 +64,7 @@ function Project({
 
       <div className="md:rounded-xl w-xl min-w-[300px] max-w-[500px] overflow-hidden shadow-xl self-center justify-self-center">
         {/* <a href={url}></a> */}
-        <img src={img} alt={title} className="object-cover w-full" />
+        <img src={img} alt={title} className="object-cover w-full projectImg" />
       </div>
     </article>
   );

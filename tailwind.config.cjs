@@ -14,10 +14,10 @@ module.exports = {
       keyframes: {
         floating: {
           "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-15px)" },
+          "50%": { transform: "translateY(-20px)" },
         },
         floatingR: {
-          "0%, 100%": { transform: "translateY(-15px)" },
+          "0%, 100%": { transform: "translateY(-20px)" },
           "50%": { transform: "translateY(0px)" },
         },
         fromRight: {
@@ -27,7 +27,6 @@ module.exports = {
           },
           "100%": {
             opacity: 1,
-            transform: "translateX(0px)",
           },
         },
         fromLeft: {
@@ -37,7 +36,6 @@ module.exports = {
           },
           "100%": {
             opacity: 1,
-            transform: "translateX(0px)",
           },
         },
         fromBottom: {
@@ -47,7 +45,6 @@ module.exports = {
           },
           "100%": {
             opacity: 1,
-            transform: "translateY(0px)",
           },
         },
         fromTop: {
@@ -57,7 +54,6 @@ module.exports = {
           },
           "100%": {
             opacity: 1,
-            transform: "translateY(0px)",
           },
         },
         appear: {

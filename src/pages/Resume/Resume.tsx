@@ -1,4 +1,5 @@
 import cvImg from "../../assets/images/cv.png";
+import cvLargeImg from "../../assets/images/cv_large.png";
 import cvPdf from "../../assets/images/CV_Thibaut_Lefevre.pdf";
 
 function Resume() {
@@ -7,10 +8,10 @@ function Resume() {
       <section className=" flex flex-col items-center mt-10 md:mt-20">
         <h1 className="text-2xl md:text-3xl  opacity-0 animate-fromLeft">I'm looking for a job.</h1>
         <p className="text-gray mt-10  opacity-0 animate-fromRight animation-delay-800 px-3 text-center">
-          My resume is entirely made with HMTL and CSS.
+          My resume is entirely made with HTML and CSS.
         </p>
         <div className="max-w-md border-gray border-2 rounded-md overflow-hidden mt-10 mx-5 opacity-0 animate-fromLeft animation-delay-2000">
-          <a href={cvPdf} className="cursor-pointer">
+          <a href={cvLargeImg} target="_blank" className="cursor-pointer">
             <img src={cvImg} alt="My Resume" />
           </a>
         </div>
