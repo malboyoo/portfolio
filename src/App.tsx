@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="appContainer flex flex-col bg-dark-1">
+    <div className="appContainer flex flex-col bg-dark-1 overflow-x-hidden">
       <Header />
       <Outlet />
       <Footer />

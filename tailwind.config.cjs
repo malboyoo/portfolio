@@ -60,14 +60,25 @@ module.exports = {
             transform: "translateY(0px)",
           },
         },
+        appear: {
+          "0%": {
+            opacity: 0,
+          },
+          "100%": {
+            opacity: 1,
+          },
+        },
       },
       animation: {
         floating: "floating 6s ease-in-out infinite",
         floatingR: "floatingR 6s ease-in-out infinite",
         fromRight: "fromRight 0.5s forwards",
+        fromRightSlow: "fromRight 1.5s forwards",
         fromLeft: "fromLeft 0.5s forwards",
+        fromLeftSlow: "fromLeft 1s forwards",
         fromBottom: "fromBottom 0.5s forwards",
         fromTop: "fromTop 0.5s forwards",
+        appear: "appear 3s forwards",
       },
       screens: {
         tall: { raw: "(min-height: 779px)" },

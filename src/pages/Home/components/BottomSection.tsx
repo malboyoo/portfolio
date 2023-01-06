@@ -2,7 +2,7 @@ function BottomSection() {
   return (
     <section className="bottomContainer bg-dark-2 py-5 px-10 md:px-14 flex flex-col md:flex-row flex-auto items-center md:items-start">
       <div className="md:w-1/2 mr-5 max-w-[360px] py-4">
-        <article className="bg-dark-1 p-3 mb-5 rounded-md hover:scale-110 transition-transform">
+        <article className="bg-dark-1 p-3 mb-5 rounded-md hover:scale-110 transition-transform animate-fromBottom opacity-0">
           <div className="w-full flex justify-between items-center  text-green">
             <h2 className="text-xl mb-2 mr-2">Front-end</h2>
             <div>
@@ -18,7 +18,7 @@ function BottomSection() {
           </p>
         </article>
 
-        <article className="bg-dark-1 p-3 mb-5 rounded-md hover:scale-110 transition-transform">
+        <article className="bg-dark-1 p-3 mb-5 rounded-md hover:scale-110 transition-transform animate-fromBottom animation-delay-500 opacity-0">
           <div className="w-full flex justify-between items-center  text-green">
             <h2 className="text-xl mb-2 mr-2">Back-end</h2>
             <div>
@@ -31,7 +31,7 @@ function BottomSection() {
           <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">NodeJS, Typescript, Express, mongoDB</p>
         </article>
 
-        <article className="bg-dark-1 p-3 mb-5 rounded-md hover:scale-110 transition-transform">
+        <article className="bg-dark-1 p-3 mb-5 rounded-md hover:scale-110 transition-transform animate-fromBottom animation-delay-1000 opacity-0">
           <div className="w-full flex justify-between items-center  text-green">
             <h2 className="text-xl mb-2 mr-2">Skills & Others</h2>
             <div>
@@ -43,7 +43,7 @@ function BottomSection() {
           <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">Git, Scrum, VScode</p>
         </article>
       </div>
-      <div className="introduce md:w-1/2 mx-auto">
+      <div className="introduce md:w-1/2 mx-auto animate-appear animation-delay-1500 opacity-0">
         <span className="text-gray my-4 block">Introduce</span>
         <h1 className="mb-6 text-2xl">Hello, I'm Thibaut Lefevre</h1>
         <h2 className="mb-4 text-lg italic">
