@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { LngsI } from "../intefaces";
 
-const lngs: LngsI = {
+const lngs: any = {
   en: { nativeName: "EN" },
   fr: { nativeName: "FR" },
 };
