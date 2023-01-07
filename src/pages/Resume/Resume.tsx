@@ -9,7 +9,7 @@ function Resume() {
   return (
     <main className="flex flex-col flex-auto items-center bg-dark-2">
       <section className=" flex flex-col items-center mt-10 md:mt-20">
-        <h1 className="text-2xl md:text-3xl  opacity-0 animate-fromLeft">{t("resume.status")}</h1>
+        <h1 className="text-2xl md:text-3xl  opacity-0 animate-fromLeft text-center">{t("resume.status")}</h1>
         <p className="text-gray mt-10  opacity-0 animate-fromRight animation-delay-800 px-3 text-center">
           {t("resume.about")}
         </p>
