@@ -15,7 +15,7 @@ function Resume() {
         </p>
         <div className="max-w-md border-gray border-2 rounded-md overflow-hidden mt-10 mx-5 opacity-0 animate-fromLeft animation-delay-2000">
           <a href={cvLargeImg} target="_blank" className="cursor-pointer">
-            <img src={cvImg} alt="My Resume" />
+            <img src={cvImg} alt="My CV" />
           </a>
         </div>
         <a href={cvPdf} download>

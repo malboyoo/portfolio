@@ -19,7 +19,7 @@ function Footer() {
             onClick={() => i18n.changeLanguage(lng)}
             className={`${
               i18n.resolvedLanguage === lng ? "bg-green font-bold" : "bg-dark-2"
-            } p-2 rounded-md transition-all duration-300`}
+            } p-2 rounded-md transition-all duration-300 text-sm`}
           >
             {lngs[lng].nativeName}
           </button>
