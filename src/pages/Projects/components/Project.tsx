@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 function Project({
   title,
   url,
@@ -15,6 +17,8 @@ function Project({
   made: React.ReactElement[];
   index: number;
 }) {
+  const { t } = useTranslation();
+
   return (
     <article
       className={`pb-10 md:px-10 md:py-20 flex md:flex-row flex-col-reverse items-start md:items-center min-w-full justify-around animate-fromBottom ${
@@ -43,14 +47,14 @@ function Project({
             index % 2 ? "md:text-right" : "md:text-left"
           }`}
         >
-          {description}
+          {t(description)}
         </p>
 
         <ul className="text-green flex justify-start md:my-4 my-2">
           {url && (
             <li className="mr-4 text-base hover:-translate-y-2 hover:text-lg hover:text-white transition-all h-7">
               <a href={url}>
-                <i className="fa-solid fa-link"></i> Preview
+                <i className="fa-solid fa-link"></i> {t("projects.preview")}
               </a>
             </li>
           )}
@@ -64,7 +68,7 @@ function Project({
 
       <div className="md:rounded-xl w-xl min-w-[300px] max-w-[500px] overflow-hidden shadow-xl self-center justify-self-center">
         {/* <a href={url}></a> */}
-        <img src={img} alt={title} className="object-cover w-full projectImg" />
+        <img src={img} alt={`${t("projects.alt")} ${title}`} className="object-cover w-full projectImg" />
       </div>
     </article>
   );

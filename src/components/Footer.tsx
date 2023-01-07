@@ -1,7 +1,31 @@
+import { useTranslation } from "react-i18next";
+import { LngsI } from "../intefaces";
+
+const lngs: LngsI = {
+  en: { nativeName: "EN" },
+  fr: { nativeName: "FR" },
+};
+
 function Footer() {
+  const { t, i18n } = useTranslation();
+
   return (
-    <footer className="flex flex-col-reverse md:flex-row justify-around items-center py-10 px-10 md:px-14">
+    <footer className="flex flex-col-reverse md:flex-row justify-between items-center py-10 px-10 md:px-14">
       <span className="md:text-lg text-base">COPYRIGHT © 2023 Thibaut Lefevre</span>
+      <div className="bg-dark-2 rounded-md mb-4 md:mb-0">
+        {Object.keys(lngs).map((lng) => (
+          <button
+            key={lng}
+            type="submit"
+            onClick={() => i18n.changeLanguage(lng)}
+            className={`${
+              i18n.resolvedLanguage === lng ? "bg-green font-bold" : "bg-dark-2"
+            } p-2 rounded-md transition-all duration-300`}
+          >
+            {lngs[lng].nativeName}
+          </button>
+        ))}
+      </div>
       <nav>
         <ul className="flex mb-4 md:mb-0">
           <li className="mx-2 hover:-translate-y-2 transition-all">

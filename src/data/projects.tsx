@@ -28,9 +28,7 @@ export const projects: ProjectI[] = [
     url: "https://runtogether.fr/",
     github: "https://github.com/malboyoo/runtogether-front",
     img: runtogetherImg,
-    description: `My first personal full-stack project, was a real challenge as I had to manage all aspects of the project on my own. 
-    This outdoor running activities planner allows users to plan their running activities with their friends. 
-    If you are interested, you can view the features and code in the Github repository.`,
+    description: "projects.runtogether",
     made: [react, node, express, sass, tailwind],
   },
   {
@@ -38,8 +36,7 @@ export const projects: ProjectI[] = [
     url: "https://warm-manatee-d0851e.netlify.app/",
     github: "https://github.com/malboyoo/P7",
     img: kasaImg,
-    description: `The last project of certifying training from Openclassrooms.
-    It was my first experience with React 18, which was perfect for learning the fundamentals.`,
+    description: "projects.kasa",
     made: [react, node, sass],
   },
   {
@@ -47,10 +44,7 @@ export const projects: ProjectI[] = [
     url: "",
     github: "https://github.com/malboyoo/P6-API",
     img: piquanteImg,
-    description: `My first back-end project as part of my certification training from Openclassrooms.
-    I learned a lot of new things and had a great time understanding all the parts of an API.
-    I really enjoyed the development process of this project.
-    `,
+    description: "projects.piquante",
     made: [node, express, mongodb],
   },
   {
@@ -58,9 +52,7 @@ export const projects: ProjectI[] = [
     url: "",
     github: "https://github.com/malboyoo/P5",
     img: kanapImg,
-    description: `Project 5 of the certifying training from Openclassrooms, 
-    which focused on using vanilla JavaScript to interact with APIs, manage a cart, and handle input errors.
-    `,
+    description: "projects.kanap",
     made: [javascript, node],
   },
   {
@@ -68,8 +60,7 @@ export const projects: ProjectI[] = [
     url: "https://remarkable-cannoli-7036de.netlify.app/index.html",
     github: "https://github.com/malboyoo/P3",
     img: ohmyfoodImg,
-    description: `Project 3 certifying training from Openclassrooms, which focused on mobile-first design and advanced CSS animation. 
-    I learned a lot about CSS during this course and feel confident in my skills in this area.`,
+    description: "projects.ohmyfood",
     made: [html, sass],
   },
 ];
