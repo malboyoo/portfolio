@@ -21,8 +21,10 @@ function Project({
 
   return (
     <article
-      className={`pb-10 md:px-10 md:py-20 flex md:flex-row flex-col-reverse items-start md:items-center min-w-full justify-around animate-fromBottom ${
-        index % 2 ? "bg-dark-1 md:animate-fromLeft" : "bg-dark-2 md:flex-row-reverse md:animate-fromRight"
+      className={`pb-10 md:px-10 md:py-20 flex md:flex-row flex-col-reverse items-start md:items-center min-w-full justify-around animate-fromBottom opacity-0 ${
+        index % 2
+          ? "bg-dark-1 md:animate-fromLeftSlow md:animation-delay-1000 animation-delay-1000"
+          : "bg-dark-2 md:flex-row-reverse md:animate-fromRightSlow md:animation-delay-500 animation-delay-500"
       }`}
     >
       <div

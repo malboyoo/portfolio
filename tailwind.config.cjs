@@ -68,12 +68,12 @@ module.exports = {
       animation: {
         floating: "floating 6s ease-in-out infinite",
         floatingR: "floatingR 6s ease-in-out infinite",
-        fromRight: "fromRight 0.5s forwards",
-        fromRightSlow: "fromRight 1.5s forwards",
-        fromLeft: "fromLeft 0.5s forwards",
-        fromLeftSlow: "fromLeft 1s forwards",
-        fromBottom: "fromBottom 0.5s forwards",
-        fromTop: "fromTop 0.5s forwards",
+        fromRight: "fromRight 0.5s forwards ease-in-out",
+        fromRightSlow: "fromRight 1.2s forwards ease-in-out",
+        fromLeft: "fromLeft 0.5s forwards ease-in-out",
+        fromLeftSlow: "fromLeft 1.2s forwards ease-in-out",
+        fromBottom: "fromBottom 0.5s forwards ease-in-out",
+        fromTop: "fromTop 0.5s forwards ease-in-out",
         appear: "appear 3s forwards",
       },
       screens: {
