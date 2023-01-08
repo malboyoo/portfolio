@@ -17,6 +17,7 @@ ul {
 }
 
 .appContainer {
+  height: 100vh;
   min-height: 100vh;
 }
 
@@ -49,11 +50,16 @@ ul {
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5));
 }
 
-.projects {
-  overflow-y: scroll;
-  scroll-snap-type: y proximity;
-}
+/*  Snap  */
 
 .project {
   scroll-snap-align: start;
+}
+
+header {
+  scroll-snap-align: start;
+}
+
+footer {
+  scroll-snap-align: end;
 }

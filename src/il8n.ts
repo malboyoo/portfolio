@@ -33,7 +33,7 @@ i18n
           },
           bottomSection: {
             skills: "Skills & Others",
-            introduce: "Introduce",
+            introduce: "Introduction",
             name: "Hello, I'm Thibaut Lefevre",
             description: `A full-stack React developer with a passion for building intuitive and dynamic web applications.`,
             longText: `As a developer specialized in React, TypeScript, and NodeJS technologies, I am excited to use my skills and knowledge to contribute to your project. I am a self-motivated, responsive, proactive person, always looking for new challenges. I am ready to fully commit to your company and adapt to your needs to contribute to its success.`,
@@ -56,6 +56,10 @@ i18n
             status: "I'm looking for a job.",
             about: "My resume is entirely made with HTML and CSS.",
             download: "Download in PDF format",
+          },
+          error: {
+            error: "Page not found.",
+            return: "Return to home",
           },
         },
       },
@@ -99,6 +103,10 @@ i18n
             status: "Je suis en recherche d'emploi",
             about: "Mon CV à été réalisé avec HTML et CSS.",
             download: "Télécharger au format PDF",
+          },
+          error: {
+            error: "Cette page n'existe pas.",
+            return: "Retourner à l'accueil",
           },
         },
       },

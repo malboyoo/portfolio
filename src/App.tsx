@@ -1,13 +1,18 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
+  const location = useLocation();
+
   return (
-    <div className="appContainer flex flex-col bg-dark-1 overflow-x-hidden projects">
+    <div
+      className={`appContainer flex flex-col bg-dark-1 overflow-x-hidden 
+    ${
+      location.pathname === "/projects" ? "overflow-y-scroll md:overflow-y-auto snap-y snap-mandatory md:snap-none" : ""
+    }`}
+    >
       <Header />
       <Outlet />
       <Footer />
