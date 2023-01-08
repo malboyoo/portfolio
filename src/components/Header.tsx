@@ -6,7 +6,7 @@ function Header() {
   const { t } = useTranslation();
 
   return (
-    <header className="py-5 px-10 md:px-14 flex flex-col md:flex-row justify-between items-center">
+    <header className="py-5 px-10 md:px-14 flex flex-col md:flex-row justify-between items-center md:relative">
       <NavLink to="/" className={({ isActive }) => (isActive ? "" : "inactive")}>
         <h2 className="text-2xl font-medium hover:scale-110 transition-all">Thibaut Lefevre</h2>
       </NavLink>

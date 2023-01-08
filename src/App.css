@@ -51,7 +51,7 @@ ul {
 
 .projects {
   overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
 }
 
 .project {
