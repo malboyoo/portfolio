@@ -21,7 +21,7 @@ function Project({
 
   return (
     <article
-      className={`pb-10 md:px-10 md:py-20 flex md:flex-row flex-col-reverse items-start md:items-center min-w-full justify-around animate-fromBottom opacity-0 ${
+      className={`project pb-10 md:px-10 md:py-20 flex md:flex-row flex-col-reverse items-start md:items-center min-w-full min-h-[100vh] md:h-auto justify-around animate-fromBottom opacity-0 ${
         index % 2
           ? "bg-dark-1 md:animate-fromLeftSlow md:animation-delay-1000 animation-delay-1000"
           : "bg-dark-2 md:flex-row-reverse md:animate-fromRightSlow md:animation-delay-500 animation-delay-500"
@@ -45,7 +45,7 @@ function Project({
         </div>
 
         <p
-          className={`italic text-gray md:my-4 my-2  text-center whitespace-pre-line px-10 md:px-0 ${
+          className={`italic text-gray md:my-4 my-2  text-center text-sm md:text-base whitespace-pre-line px-10 md:px-0 ${
             index % 2 ? "md:text-right" : "md:text-left"
           }`}
         >

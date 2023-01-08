@@ -3,7 +3,7 @@ import Project from "./components/Project";
 
 function Projects() {
   return (
-    <main className="flex flex-col flex-auto items-center pt-5 md:pt-0 bg-dark-1">
+    <main className="projects flex flex-col flex-auto items-center pt-5 md:pt-0 bg-dark-1 h-[100vh] md:h-auto">
       {projects.map((project, i) => (
         <Project {...project} index={i} key={crypto.randomUUID()} />
       ))}
