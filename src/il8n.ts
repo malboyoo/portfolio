@@ -53,7 +53,7 @@ i18n
             I learned a lot about CSS during this course and feel confident in my skills in this area.`,
           },
           resume: {
-            status: "I'm looking for a job.",
+            status: "Open to work",
             about: "My resume is entirely made with HTML and CSS.",
             download: "Download in PDF format",
           },
@@ -100,8 +100,8 @@ i18n
             J'ai acquis de solides connaissances en CSS grâce à ce projet.`,
           },
           resume: {
-            status: "Je suis en recherche d'emploi",
-            about: "Mon CV à été réalisé avec HTML et CSS.",
+            status: "Et si on travaillait ensemble ?",
+            about: "CV réalisé avec HTML et CSS.",
             download: "Télécharger au format PDF",
           },
           error: {
