@@ -19,7 +19,7 @@ function Resume() {
           </a>
         </div>
         <a href={cvPdf} download>
-          <button className="bg-gray px-4 py-2 rounded-md my-10 opacity-0 animate-fromBottom animation-delay-2000">
+          <button className="bg-gray px-4 py-2 rounded-md my-10 md:mb-20 opacity-0 animate-fromBottom animation-delay-2000">
             {t("resume.download")}
           </button>
         </a>
