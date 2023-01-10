@@ -28,7 +28,7 @@ function Footer() {
       <nav>
         <ul className="flex mb-4 md:mb-0">
           <li className="mx-2 hover:-translate-y-2 transition-all">
-            <a href="mailto:thibaut.lefevre@gmail.com">
+            <a href="mailto:thibaut.lefevre.dev@gmail.com">
               <i className="fa-solid fa-envelope text-2xl"></i>
             </a>
           </li>
