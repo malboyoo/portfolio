@@ -39,6 +39,24 @@ module.exports = {
             opacity: 1,
           },
         },
+        fromRightFar: {
+          "0%": {
+            opacity: 0,
+            transform: "translateX(300px)",
+          },
+          "100%": {
+            opacity: 1,
+          },
+        },
+        fromLeftFar: {
+          "0%": {
+            opacity: 0,
+            transform: "translateX(-300px)",
+          },
+          "100%": {
+            opacity: 1,
+          },
+        },
         fromBottom: {
           "0%": {
             opacity: 0,
@@ -71,8 +89,10 @@ module.exports = {
         floatingR: "floatingR 6s ease-in-out infinite",
         fromRight: "fromRight 0.5s forwards ease-in-out",
         fromRightSlow: "fromRight 1.2s forwards ease-in-out",
+        fromRightFarSlow: "fromRightFar 1.2s forwards ease-in-out",
         fromLeft: "fromLeft 0.5s forwards ease-in-out",
         fromLeftSlow: "fromLeft 1.2s forwards ease-in-out",
+        fromLeftFarSlow: "fromLeftFar 1.2s forwards ease-in-out",
         fromBottom: "fromBottom 0.5s forwards ease-in-out",
         fromTop: "fromTop 0.5s forwards ease-in-out",
         appear: "appear 3s forwards",
