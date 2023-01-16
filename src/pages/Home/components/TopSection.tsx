@@ -39,7 +39,7 @@ function TopSection() {
           />
         </div>
 
-        <div className="absolute bg-dark-2 rounded-full w-[340px] min-w-[340px] sm:w-[390px] sm:min-w-[390px] h-[340px] sm:h-[390px] sm:min-h-[390px] top-0"></div>
+        <div className="absolute profilGradiant rounded-full w-[340px] min-w-[340px] sm:w-[390px] sm:min-w-[390px] h-[340px] sm:h-[390px] sm:min-h-[390px] top-0"></div>
       </div>
     </section>
   );
