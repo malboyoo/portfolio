@@ -1,6 +1,10 @@
 import { useTranslation } from "react-i18next";
 
-const lngs: any = {
+type lng = {
+  [key: string]: { nativeName: string };
+};
+
+const lngs: lng = {
   en: { nativeName: "EN" },
   fr: { nativeName: "FR" },
 };
