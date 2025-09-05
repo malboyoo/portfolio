@@ -3,6 +3,9 @@ import runtogetherImg from "../assets/images/runtogether.png";
 import piquanteImg from "../assets/images/piquante.png";
 import kanapImg from "../assets/images/kanap.png";
 import ohmyfoodImg from "../assets/images/ohmyfood.png";
+import pharmacieImg from "../assets/images/application-pharmacie.png";
+import crmImg from "../assets/images/crm-interne.svg";
+import siteAssoImg from "../assets/images/site_asso.png";
 
 interface ProjectI {
   title: string;
@@ -21,8 +24,36 @@ const express = <i className="devicon-express-original-wordmark block text-6xl" 
 const mongodb = <i className="devicon-mongodb-plain-wordmark colored block" title="MongoDB"></i>;
 const javascript = <i className="devicon-javascript-plain colored block" title="Javascript"></i>;
 const html = <i className="devicon-html5-plain-wordmark colored block" title="html"></i>;
+const antd = <i className="devicon-antdesign-plain-wordmark colored block text-6xl" title="Ant Design"></i>;
+const vue = <i className="devicon-vuejs-plain-wordmark colored block" title="Vue.js"></i>;
+const vite = <i className="devicon-vitejs-plain colored block text-3xl" title="Vite"></i>;
+const supabase = <i className="devicon-supabase-plain-wordmark colored block text-6xl" title="Supabase"></i>;
 
 export const projects: ProjectI[] = [
+  {
+    title: "Stade Cubzaguais Athlétisme",
+    url: "https://stadecubzaguaisathletisme.fr/",
+    github: "",
+    img: siteAssoImg,
+    description: "projects.siteasso",
+    made: [react, vite, tailwind, supabase],
+  },
+  {
+    title: "Application Web Pharmacie",
+    url: "",
+    github: "",
+    img: pharmacieImg,
+    description: "projects.pharmacie",
+    made: [react, tailwind, antd],
+  },
+  {
+    title: "CRM Interne",
+    url: "",
+    github: "",
+    img: crmImg,
+    description: "projects.crm",
+    made: [vue],
+  },
   {
     title: "runtogether.fr",
     url: "https://runtogether.fr/",

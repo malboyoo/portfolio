@@ -11,16 +11,15 @@ function BottomSection() {
             <div className="w-full flex justify-between items-center text-green">
               <h2 className="text-xl mb-2 mr-2">Front-end</h2>
               <div className="text-xl">
-                <i className="devicon-react-original colored mr-2" title="ReactJS"></i>
+                <i className="devicon-react-original colored mr-2" title="React"></i>
+                <i className="devicon-nextjs-original mr-2" title="Next.js"></i>
+                <i className="devicon-vuejs-plain colored mr-2" title="Vue"></i>
                 <i className="devicon-typescript-plain colored mr-2" title="Typescript"></i>
                 <i className="devicon-tailwindcss-plain colored mr-2" title="TailwindCSS"></i>
-                <i className="devicon-sass-original colored mr-2" title="Sass"></i>
               </div>
             </div>
 
-            <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">
-              ReactJS, Typescript, TailwindCSS, Sass
-            </p>
+            <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">React, Next.js, shadcn/ui, Vue, Typescript, TailwindCSS</p>
           </article>
         </li>
         <li className="hover:scale-110 transition-all">
@@ -32,9 +31,10 @@ function BottomSection() {
                 <i className="devicon-express-original text-white mr-2" title="Express"></i>
                 <i className="devicon-mongodb-plain colored mr-2" title="MongoDB"></i>
                 <i className="devicon-graphql-plain colored mr-2" title="GraphQL"></i>
+                <i className="devicon-firebase-plain colored mr-2" title="Firebase"></i>
               </div>
             </div>
-            <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">NodeJS, Express, mongoDB, GraphQL</p>
+            <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">NodeJS, Express, mongoDB, GraphQL, Firebase, Supabase</p>
           </article>
         </li>
         <li className="hover:scale-110 transition-all">
@@ -43,11 +43,11 @@ function BottomSection() {
               <h2 className="text-xl mb-2 mr-2">{t("bottomSection.skills")}</h2>
               <div className="text-xl">
                 <i className="devicon-git-plain colored mr-2" title="Git"></i>
+                <i className="devicon-playwright-plain colored mr-2" title="Playwright"></i>
                 <i className="devicon-jira-plain colored mr-2" title="Jira"></i>
-                <i className="devicon-vscode-plain colored mr-2" title="VScode"></i>
               </div>
             </div>
-            <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">Git, Scrum, VScode</p>
+            <p className="bg-code p-2 rounded-md text-sm text-variable codeArea">Git, Playwright(E2E), Scrum, Cursor, Claude Code</p>
           </article>
         </li>
       </ul>

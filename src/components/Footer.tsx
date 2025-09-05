@@ -14,7 +14,7 @@ function Footer() {
 
   return (
     <footer className="flex flex-col-reverse md:flex-row justify-between items-center py-10 px-10 md:px-14">
-      <span className="md:text-lg text-base">COPYRIGHT © 2023 Thibaut Lefevre</span>
+      <span className="md:text-lg text-base">COPYRIGHT © 2025 Thibaut Lefevre</span>
       <div className="bg-dark-2 rounded-md mb-4 md:mb-0">
         {Object.keys(lngs).map((lng) => (
           <button

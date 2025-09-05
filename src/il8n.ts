@@ -41,6 +41,18 @@ i18n
           projects: {
             alt: "Preview of the website",
             preview: "Preview",
+            siteasso: `A complete associative website for the Stade Cubzaguais Athlétisme sports club. Built with modern technologies including 
+            Vite, React, React Query, ShadCN, TailwindCSS, and Supabase for the backend. Features a comprehensive back office for managing 
+            news, important site messages, events, user management, a member directory, sections, and registrations. 
+            This project demonstrates full-stack development skills with a focus on user experience and administrative efficiency.`,
+            pharmacie: `A custom web application for a pharmacy group. Ongoing development for over 2 years. Working in a team with a backend developer, 
+            I use React, Tailwind CSS, and Ant Design. This project showcases advanced frontend skills including 
+            custom data visualizations, sophisticated UI components, interactive dashboards 
+            and geolocation features. Private enterprise project.`,
+            crm: `An internal CRM for an IT services company built with Vue.js. This comprehensive platform manages 
+            clients across multiple business units (Management Solutions, Telecom, Cloud, Digital Transformation, Software Engineering, Web Marketing). 
+            Features include subscription management, internal challenges, performance analytics, competitor tracking, 
+            and opportunity pipeline management. Currently in active development. Private enterprise project.`,
             runtogether: `My first full-stack project, it was a real challenge as I had to manage all aspects of the project on my own. 
             This running activities planner allows users to plan their activities with their friends. 
             If you are interested, you can view the features and code in the Github repository.`,
@@ -88,6 +100,18 @@ i18n
           projects: {
             alt: "Prévisualisation du site",
             preview: "Site",
+            siteasso: `Un site web associatif complet pour le club sportif Stade Cubzaguais Athlétisme. Développé avec des technologies modernes incluant 
+            Vite, React, React Query, ShadCN, TailwindCSS et Supabase pour le backend. Dispose d'un back office complet pour la gestion 
+            des actualités, messages importants, événements, gestion des utilisateurs, trombinoscope, sections et inscriptions. 
+            Ce projet démontre des compétences de développement full-stack avec un accent sur l'expérience utilisateur et l'efficacité administrative.`,
+            pharmacie: `Une application web sur mesure pour un groupe de pharmacies. En développement continu depuis plus de 2 ans. En équipe avec un développeur backend, 
+            j'utilise React, Tailwind CSS et Ant Design. Ce projet met en valeur des compétences frontend avancées incluant 
+            la visualisation de données personnalisées, des composants UI sophistiqués, des tableaux de bord interactifs 
+            et des fonctionnalités de géolocalisation. Projet d'entreprise privé.`,
+            crm: `Un CRM interne pour une société de services informatiques développé avec Vue.js. Cette plateforme complète gère 
+            les clients à travers plusieurs BU (Solutions de Gestion, Télécom, Cloud, Digitalisation, Génie Logiciel, Webmarketing). 
+            Fonctionnalités incluant la gestion d'abonnements, des challenges internes, des statistiques de performance, 
+            le suivi concurrentiel et la gestion du pipeline d'opportunités. Actuellement en développement actif. Projet d'entreprise privé.`,
             runtogether: `Mon premier projet full-stack, un véritable défi car j'ai dû gérer tous les aspects du projet seul. 
             Ce planificateur d'activités de running permet aux utilisateurs de planifier leurs sorties entre amis. 
             Pour plus de détails, consultez le répertoire Github.`,

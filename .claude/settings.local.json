@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/D:\\CODE\\react-portfolio\\src\\pages\\Home\\components/**)",
+      "Read(/D:\\CODE\\react-portfolio\\src\\data/**)",
+      "Read(/D:\\CODE\\react-portfolio\\src/**)",
+      "Read(/D:\\CODE\\react-portfolio\\src\\assets\\images/**)",
+      "Read(/D:\\CODE\\react-portfolio\\src\\assets\\images/**)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:devicon.dev)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
