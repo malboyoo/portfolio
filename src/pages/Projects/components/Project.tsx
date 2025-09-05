@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { generateUUID } from "../../../utils/uuid";
 
 function Project({
   title,
@@ -37,7 +38,7 @@ function Project({
           {made.map((el) => (
             <span
               className={`mx-2 md:mx-0 ${index % 2 ? "md:ml-3 md:mr-0" : "md:mr-3 md:ml-0"}`}
-              key={crypto.randomUUID()}
+              key={generateUUID()}
             >
               {el}
             </span>
